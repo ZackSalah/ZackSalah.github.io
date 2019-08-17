@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- I learned how to modifiy the code from the example from getboostrap.com nad use what I learned from previous excerices to make this appears as in the website -->
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Styles/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<title>Mohammed Salah</title>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="55">
+
+ <!-- NavBar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<div id="navdiv">
+			  	<a class="navbar-brand d-none d-sm-block" href="#brand">Mohammed Salah</a>
+				<a href="http://bit.ly/MohammedSalahLinkedIn" target="_blank" class="btn btn-social-icon btn-linkedin">
+					<span class="fa fa-linkedin"></span>
+				</a>
+				<a href="http://bit.ly/MohammedSalahGitHub" target="_blank" class="btn btn-social-icon btn-github">
+		    		<span class="fa fa-github"></span>
+				</a>		
+			</div>
+			<button class="navbar-toggler" type="button" name="collapseable" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  	<div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+			       		<a class="nav-link" href="#about">About</a>
+			   		</li>
+		      		<li class="nav-item">
+			    		<a class="nav-link" href="#edu">Education</a>
+		     		</li>
+			   		<li class="nav-item">
+		       			<a class="nav-link" href="#projects">Projects</a>
+		      		</li>
+		      		<li class="nav-item">
+			    		<a class="nav-link" href="#certs">Certification</a>
+		     		</li>
+			  		<li class="nav-item">
+			    		<a class="nav-link" href="#contact">Contact</a>
+		     		</li>      
+			    </ul>
+		  	</div>
+	  	</div>
+	</nav>		
+
+	<!-- Header -->
+		<div>
+			<header id="brand">
+				<div class="container intro">
+					<img src="Images/profileImage.jpg" alt="Loading image failed...">
+					<div class="">
+						<h1>Mohammed Salah</h1>
+						<hr>
+						<span><b>Recent Computer Science Graduate</b></span>
+					</div>
+			    </div> 
+			</header>
+			<section id="about">
+				<div class="container">
+					<h1>About</h1>
+					<p class="formatTextL">
+						I'm a computer science graduate from Portland State University. I'm interested in software engineering, full stack development, back-end software development, and security. I have a passion for learning and am excited to grow in my career. I'm currently searching for a full-time entry level or an internship position.
+					</p>
+				</div>
+		 	</section>
+		 	<section id="edu">
+				<div class="container">
+					<h1>Education</h1>
+					<br>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+         				<div class="resume-content">
+			            	<h3 class="mb-0">Portland State University</h3>
+			            	<div class="mb-3"><h5>Bachelor of Science</h5></div>
+			            	<div class="">
+			            		<span>Computer Science</span>
+			            		<p>GPA: 3.26 / 4 </p>
+			            	</div>
+			        	</div>
+			          	<span class="formatTextM">June 2014 - March 2019</span>
+			        </div>
+				</div>
+		 	</section>
+		 	<section id="projects">
+		    	<div class="container">
+		    		<h1>Projects</h1>
+					<br>
+		        	<div class="row">
+		          		<div class="col-md-4 d-flex flex-column">
+		          			<div>
+					            <h2>Choc-An Data Processing Software</h2>
+					            <br>
+					            <p>
+					            	Participated in a team of five to build a multi-purpose data processing software for a virtual hospital from the ground up using C++98 and the Waterfall Development Process. Applied the OOP model and Data structure knowledge. Took charge of managing the team's workflow using git. Aided in writing unit tests for the application.
+					            </p>
+					            <p>Technologies: OOP concepts, waterfall development, continuous integration, Git, C++</p>
+				        	</div>
+				            <p class="mt-auto"><a class="btn btn-secondary" href="http://bit.ly/ChocAn" target="_blank" role="button">repository &#187;</a></p>
+		          		</div>
+		          		<div class="col-md-4 d-flex flex-column">
+		          			<div>
+					            <h2>XV6 Operating System</h2>
+					            <br>
+					            <p>
+					            	Made modifications to the MIT XV6 operating system under compilation condition flags. Added System Calls and implementation for commands such as Setuid, Getuid, and Date. Modified commands like ls and Ctrl+P. Enhanced the security of files by implementing and adding Chmod, Chgrp, and Chown system calls. Improved the run time and efficiency by implementing MLFQ scheduling and Process State Transition.
+					            </p>
+								<p>Technologies: XV6, C</p>
+							</div>
+				            <p class="mt-auto"><a class="btn btn-secondary" href="http://bit.ly/XV6OperatingSystem" target="_blank" role="button">repository &#187;</a></p>
+		         		</div>
+		          		<div class="col-md-4 d-flex flex-column">
+		          			<div>
+					            <h2>Phone Bill Application</h2>
+					            <br>
+					            <p>
+					            	Built a commercial phone billing application using Java and Maven. Used Travis Cl as a means for continuous integration. Applied Dependency Injection and Test-Driven Development throughout the development process. Built a web server that provides a REST-ful API with mapped CRUD operations and a client using HTTPServlet and HTTPClient. Improved the application security and runtime by utilizing the Google Web ToolKit RPC framework's serialization policies and the ability to move all the UI logic to the client which reduces web server load and bandwidth. Implemented a web-based user interface for the client using GWT UI.
+					            </p>
+								<p>Technologies: Maven, Java,  Servlet, GWT, Travis CI, and Git</p>
+							</div>
+				            <p class="mt-auto"><a class="btn btn-secondary" href="http://bit.ly/PhoneBillApp" target="_blank" role="button">repository &#187;</a></p>
+		          		</div>
+		          	</div>
+	          		<hr>
+	          		<div>
+	          			<br>
+	          			<h1>Capstone Project</h1>
+	          			<br>
+			          	<h2>Nike - Kratos - Clothing Analyzer</h2>
+			          	<br>
+			          	<p>
+			          		Participated as one of six to develop AI for Nike within 12 weeks. The AI is a clothing analyzer which can indicate the color, material, and style of clothing based on a photo. Used Python and TensorFlow to construct an AI agent using a convolutional neural network model. Took charge of building a mobile application using React Native for the frontend and Flask for the backend and connected the team inferences to the backend.
+			          	</p>
+						<p>Technologies: Tensorflow, Pytorch, Python, Pycharm, Keras, React Native, and Flask</p>
+						<p><a class="btn btn-secondary" id="gitpages" href="http://bit.ly/KratosCNN" target="_blank" role="button">repository &#187;</a></p>
+  	          		</div>	
+		      	</div>
+		 	</section>
+		 	<section id="certs">
+				<div class="container">
+					<h1>Certification</h1>
+					<br>
+					<div class="container row justify-content-between mb-5">
+						<h3>Misk/Tokai University - Electric Car Engineering Training Program</h3>
+						<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tokai" aria-expanded="false" aria-controls="tokai">&#187;</button>
+					</div>
+					<div class="collapse" id="tokai">
+  						<div class="card card-body">
+  							<p>
+  								Selected as one of 30 participants nationwide to take part in a month-long intensive training program for the electric car engineering program at Tokai University. Learned technologies for electric car assembly by taking classes from a wide verity of fields such as material engineering, optimal battery for electric cars, brush and brushless DC mortars, and aerodynamics. Did experiments on a chassis dynamometer, measurement of deformation on beams, solar cells properties, and wind tunnel tests. Understood the Japanese business side by taking Japanese business management, Psychology and philosophy of team making, and sustainable development. Visited Nikon, Nissan Oppama Plant, Toyota City, Cyberdyne Robo Care, and Toray Carbon Magic.
+  							</p>
+  							<!-- image of certs or link -->
+  						</div>
+					</div>
+				</div>
+			</section>
+		 	<section id="contact">
+				<div class="container">
+					<h1>Contact</h1>
+					<br>
+					<form method="POST" name="sentMessage" id="contactForm" class="needs-validation" novalidate>
+						<div class="control-group">
+							<div class="col form-group">
+								<label class="sr-only" >Name</label>
+						  		<input type="text" name="name" class="form-control" placeholder="Name" id="name" maxlength="30" required>
+						  		<div class="invalid-feedback">Please type in your name.</div>
+							</div>
+						    <div class="col form-group">
+						    	<label class="sr-only">Email</label>
+						    	<input type="email" name="_replyto" class="form-control" placeholder="Email" id="email" required>
+						    	<div class="invalid-feedback">Please enter a valid email.</div>
+
+						    </div>
+						    <div class="col form-group">
+						    	<label class="sr-only">Message</label>
+						    	<textarea rows="6" name="message" class="form-control" placeholder="Message" id="message" required></textarea>
+						    	<div class="invalid-feedback">Please type in the message.</div>
+
+						    </div>
+						    <input type="hidden" name="_next" value="thanks.html" />
+						    <input type="hidden" name="_subject" value="Web Resume" />
+						    <input type="text" name="_gotcha"/>
+							<br>
+							<div class="form-group col">
+								<button type="submit"  class="btn btn-success btn-lg">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		 	</section>
+		 	<footer>
+		 		<p class="container" id="copyright">
+					Copyright © Mohammed Salah 2019
+				</p>
+		 	</footer>
+		 </div>
+		 <script src="Scripts/validation.js"></script>
+		 <script src="Scripts/links.js"></script>
+	</body>
+</html>

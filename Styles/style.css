@@ -1,0 +1,119 @@
+/*Classes*/
+.intro{
+	padding-top: 80px;
+	padding-bottom: 15px;
+}
+.formatTextL{
+	font-size: 140%;
+}
+.formatTextM{
+	font-size: 120%;
+}
+.fa:before{
+	font-size: 2rem;
+	color: white;
+}
+.btn-success{
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-primary{
+    background-color: #338fab;
+    border-color: #338fab;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 130%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*IDs*/
+#navdiv {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 130%;
+}
+#about, #contact{
+	background-color: #338fab52;
+
+}
+#edu, #certs{
+    background-color:#FFFFF4;
+}
+#projects{
+	padding-top: 3%;
+	padding-bottom: 2%;
+	background-color: #338fab52;
+}
+#copyright{
+	text-align: center;
+	color: white;
+    margin-top: 5px;
+}
+
+/*Elements*/
+button[aria-expanded="false"]:before{
+	content:"more details ";
+
+}
+button[aria-expanded="true"]:before{
+	content:"less details ";
+
+}
+li{
+	font-size: 130%
+}
+button[name=collapseable]:before{
+	content: "";
+}
+section{
+	padding-top: 10%;
+	padding-bottom: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+	text-align: center;
+	background-color: #338fab;
+	padding-top: 3%;
+	padding-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    border-style: double;
+    border-color: #212529;
+    border-width: thick;
+}
+body{
+    position: relative;
+    font-color: #343a40;
+}
+h1{
+	text-align: center;
+}
+form-control{
+	color: #acb6c0;
+    opacity: 1;
+    border-width: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+textarea[name=message]{
+	resize: none;
+}
+form{
+	width: 75%;
+	margin: auto;
+}
+input[name=_gotcha]{
+	display: none;
+}
+footer{
+	padding-top: .8%;
+	padding-bottom: .3%;
+	background-color: #343A40;
+}
