@@ -13,20 +13,17 @@
 	font-size: 2rem;
 	color: white;
 }
-.btn-success{
-    background-color: #6c757d;
-    border-color: #6c757d;
-}
-
-.btn-primary{
-    background-color: #338fab;
-    border-color: #338fab;
-}
 .navbar-brand{
 	font-weight: bold;
 	font-size: 130%;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary.active,  .open .dropdown-toggle.btn-primary {
+    background-color: #338fab !important; 
+    border-color: #338fab;
+    box-shadow: 0 0 0 .2rem #338fabba;
 }
 
 /*IDs*/
