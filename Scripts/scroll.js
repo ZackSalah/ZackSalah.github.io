@@ -1,7 +1,4 @@
 window.addEventListener("hashchange", function() {
-	console.log(event.oldURL)
-	console.log(event.newURL)
-
 	if (window.location.hash !== "#contact" ){
 		scrollBy(0, -63)
 	}
@@ -12,14 +9,14 @@ window.addEventListener("hashchange", function() {
 // 		window.history.back();
 // 	}
 // }
-const cells = document.getElementsByClassName("nav-link")
-for (let cell of cells) {
-	if(!window.HashChangeEvent){
-		cell.onclick = function() {
-	  		console.log(event.oldURL);
-	  		};
-	}
-}
+// const cells = document.getElementsByClassName("nav-link")
+// for (let cell of cells) {
+// 	if(!window.HashChangeEvent){
+// 		cell.onclick = function() {
+// 	  		console.log(event.oldURL);
+// 	  		};
+// 	}
+// }
 
 $( window ).resize(function() {
 	var hamburgerMenuStatus = document.querySelector("button").classList.contains("collapsed");
